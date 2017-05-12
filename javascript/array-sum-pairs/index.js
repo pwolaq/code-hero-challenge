@@ -3,7 +3,7 @@ module.exports = function(array, sum) {
     var current;
     var diff;
 
-    for(var i=0, length=array.length; i<length; i++){
+    for(var i=0, length=array.length; i<length; ++i){
         current = array[i];
         diff = sum - current;
 
